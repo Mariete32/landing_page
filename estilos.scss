@@ -1,0 +1,17 @@
+// Required
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+//mi paleta de colores
+$custom-colors:(
+    "rojo": #c92435,
+  "rosa":#fbe2dd,
+  "azul":#437691,
+"blanco":#fbf7f4,
+"negro":#42474d
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$primary:#c92435;
+
+@import "bootstrap/scss/bootstrap.scss"
