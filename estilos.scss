@@ -4,14 +4,18 @@
 @import "bootstrap/scss/mixins";
 
 //mi paleta de colores
-$custom-colors:(
-    "rojo": #c92435,
-  "rosa":#fbe2dd,
-  "azul":#437691,
-"blanco":#fbf7f4,
-"negro":#42474d
+$custom-colors: (
+  "rojo": #c92435,
+  "rosa": #fbe2dd,
+  "azul": #437691,
+  "blanco": #fbf7f4,
+  "negro": #42474d,
+  "alpino": #acc5dc,
+  "oro": #faead3,
+  "plata": #f2f3ee,
+  "grafito": #5d5c58,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
-$primary:#c92435;
+$primary: #c92435;
 
-@import "bootstrap/scss/bootstrap.scss"
+@import "bootstrap/scss/bootstrap.scss";
