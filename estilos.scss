@@ -1,9 +1,11 @@
-// Required
+
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
+//importamos la fuente del tipo de letra
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-//mi paleta de colores
+//añadimos a la paleta de colores
 $custom-colors: (
   "rojo": #c92435,
   "rosa": #fbe2dd,
@@ -16,6 +18,9 @@ $custom-colors: (
   "grafito": #5d5c58,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
-$primary: #c92435;
+
+//cambiamos la variable del tipo de letra
+$font-family-sans-serif: 'Playfair Display', serif;
+
 
 @import "bootstrap/scss/bootstrap.scss";
